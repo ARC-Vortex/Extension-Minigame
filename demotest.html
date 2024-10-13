@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<div id="tree"></div>
+
+
+</body>
+<script>
+    const data = localStorage.getItem('cta-00000001-LVMX')
+    let normalized_data = JSON.parse(atob(data))
+    window.onload = function() {
+    console.log(normalized_data)
+    console.log(data)
+    }
+</script>
+</html>

@@ -1,0 +1,28 @@
+.BarInfoLF {
+    position: absolute;
+    left: 5%;
+    text-align: left;
+    transform: translateY(-60%);
+}
+
+.BarInfoRG {
+    position: absolute;
+    right: 5%;
+    transform: translateY(-60%);
+}
+
+.BuyableDataTT {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 18px;
+    font-family: CRDIMed;
+}
+
+.BuyableDataLT {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 12px;
+    font-family: CRDIReg;
+}
